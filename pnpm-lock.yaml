@@ -18,7 +18,7 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
 
-  apps/excalidraw-frontend:
+  apps/coscribe-frontend:
     dependencies:
       '@repo/common':
         specifier: workspace:*
@@ -77,7 +77,7 @@ importers:
         version: 15.1.7(eslint@9.19.0(jiti@1.21.7))(typescript@5.7.3)
       postcss:
         specifier: ^8
-        version: 8.4.31
+        version: 8.5.2
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.17(ts-node@10.9.2(@types/node@20.17.17)(typescript@5.7.3))
