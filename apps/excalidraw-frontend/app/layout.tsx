@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Excalidraw",
+  title: "CoScribe",
   description: "Create and Collaborate",
   icons: [
     {
