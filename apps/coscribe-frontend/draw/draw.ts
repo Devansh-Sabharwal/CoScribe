@@ -106,7 +106,6 @@ export class Draw {
         this.socket.onmessage = (event) => {
             const message = JSON.parse(event.data);
             if (message.type == "chat") {
-                console.log("chat");
                 const parsedShape = JSON.parse(message.message);
                 this.existingStrokes.push(parsedShape);
                 this.clearCanvas();

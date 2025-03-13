@@ -1,6 +1,5 @@
 import { HTTP_URL } from "@/config";
 export const signupUser = async (userData: { email: string; password: string,name:string }) => {
-  console.log("HTTP URL is : ",HTTP_URL);
     const response = await fetch(`${HTTP_URL}/signup`, {
       method: "POST",
       headers: {
@@ -17,7 +16,6 @@ export const signupUser = async (userData: { email: string; password: string,nam
     return response.json();
   };
   export const signInUser = async (userData: { email: string; password: string }) => {
-  console.log("HTTP URL is : ",HTTP_URL);
 
     const response = await fetch(`${HTTP_URL}/signin`, {
       method: "POST",
